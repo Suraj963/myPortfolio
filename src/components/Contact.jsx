@@ -128,14 +128,14 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'contact@surajm.com',
-      link: 'mailto:contact@surajm.com'
+      value: 'surajgm2001@gmail.com',
+      link: 'mailto:surajgm2001@gmail.com'
     },
     {
       icon: '📱',
       title: 'Phone',
-      value: '+91 9876543210',
-      link: 'tel:+919876543210'
+      value: '+91 9513276042',
+      link: 'tel:+919513276042'
     },
     {
       icon: '📍',
@@ -280,7 +280,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com/surajm" 
+                    href="https://github.com/Suraj963" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
@@ -291,7 +291,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="https://linkedin.com/in/surajm" 
+                    href="https://www.linkedin.com/in/surajgm/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
@@ -302,7 +302,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a 
-                    href="https://twitter.com/surajm" 
+                    href="#" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary/20 transition-colors"

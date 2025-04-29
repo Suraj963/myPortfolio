@@ -63,16 +63,11 @@ const About = () => {
             </h3>
             
             <p className="text-gray-300 mb-6">
-              I'm a passionate Full-Stack Developer with 5+ years of experience building modern web applications. 
-              I specialize in JavaScript, React, Node.js, and modern frontend frameworks, with a focus on creating 
-              responsive, accessible, and performant web experiences.
+            As a Full-Stack Software Engineer with expertise in React.js, Node.js, Express.js, React Native, Java, and MySQL, MongoDB. I am passionate about building scalable and efficient web and mobile applications that solve real-world problems. My experience spans across e-commerce, real estate, billing, and cab booking projects, where I've delivered robust solutions from concept to deployment. 
             </p>
             
             <p className="text-gray-300 mb-8">
-              My journey in web development started with a fascination for creating interactive experiences. 
-              Since then, I've worked with startups and established companies to deliver scalable solutions 
-              that drive business growth. I'm constantly learning new technologies and refining my skills to 
-              stay at the forefront of web development.
+            I specialize in developing user-friendly frontends using React.js and React Native for cross-platform mobile applications, while leveraging Node.js and Express.js to create performant backends. I've also integrated third-party APIs and payment gateways, optimized database queries, and implemented secure authentication mechanisms to ensure data privacy and smooth user experiences.
             </p>
             
             <div className="grid grid-cols-2 gap-4">
@@ -82,7 +77,7 @@ const About = () => {
               </div>
               <div>
                 <h4 className="font-semibold mb-2 text-primary">Email:</h4>
-                <p className="text-gray-300">contact@surajm.com</p>
+                <p className="text-gray-300">surajgm2001@gmail.com</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2 text-primary">Location:</h4>

@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/surajm" 
+                href="https://github.com/Suraj963" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors"
@@ -26,7 +26,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/in/surajm" 
+                href="https://www.linkedin.com/in/surajgm/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors"
@@ -76,14 +76,14 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center text-gray-400">
                 <span className="mr-2">📧</span>
-                <a href="mailto:contact@surajm.com" className="hover:text-primary transition-colors">
-                  contact@surajm.com
+                <a href="mailto:surajgm2001@gmail.com" className="hover:text-primary transition-colors">
+                  surajgm2001@gmail.com
                 </a>
               </li>
               <li className="flex items-center text-gray-400">
                 <span className="mr-2">📱</span>
-                <a href="tel:+919876543210" className="hover:text-primary transition-colors">
-                  +91 9876543210
+                <a href="tel:+919513276042" className="hover:text-primary transition-colors">
+                  +91 9513276042
                 </a>
               </li>
               <li className="flex items-center text-gray-400">

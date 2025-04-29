@@ -8,7 +8,7 @@ const Hero = () => {
     // Text typing effect
     const text = textRef.current;
     if (text) {
-      const phrases = ["Full-Stack Developer", "UI/UX Enthusiast", "Problem Solver"];
+      const phrases = ["Full-Stack Developer", "Software Developer", "Problem Solver"];
       let phraseIndex = 0;
       let charIndex = 0;
       let isDeleting = false;
@@ -70,7 +70,7 @@ const Hero = () => {
           </div>
           
           <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.4s'}}>
-            I craft beautiful, functional web applications with a focus on user experience and clean code.
+            I craft beautiful, functional web and mobile applications with a focus on user experience and clean code.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{animationDelay: '0.6s'}}>

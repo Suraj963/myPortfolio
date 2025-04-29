@@ -81,28 +81,22 @@ const Experience = () => {
   
   const experienceData = [
     {
-      year: '2022 - Present',
-      title: 'Senior Full-Stack Developer',
-      company: 'TechVision Inc.',
-      description: 'Leading development of enterprise-scale applications using React, Node.js, and AWS. Improved application performance by 40% and mentored junior developers.'
+      year: 'Apr 2024 - Sep 2024',
+      title: 'Software Developer',
+      company: 'Infynow Software Solutions',
+      description: 'Engineered full-stack web applications (React.js, Node.js, MySQL) for e-commerce, real estate, billing, and cab-booking verticals, supporting 100+ + daily active users. Architected and optimized RESTful APIs with Express.js, reducing average server response time by 30%. Deployed cross-platform mobile apps in React Native, increasing release velocity by 25% and improving user retention.'
     },
     {
-      year: '2020 - 2022',
-      title: 'Full-Stack Developer',
-      company: 'InnovateX Solutions',
-      description: 'Developed and maintained multiple web applications for clients across various industries. Implemented CI/CD pipelines and automated testing protocols.'
+      year: 'Aug 2023 - Jan 2024',
+      title: 'Java Full-Stack Web Developer Trainee',
+      company: 'TapAcademy',
+      description: 'Worked on developing full-stack web applications using Java, MySQL, HTML, CSS, and JavaScript. Built dynamic front-end interfaces and robust back-end logic, ensuring efficient database interactions and smooth user experiences.'
     },
     {
-      year: '2018 - 2020',
-      title: 'Frontend Developer',
-      company: 'WebCraft Studios',
-      description: 'Created responsive UI components and interactive features for e-commerce platforms. Collaborated with designers to implement pixel-perfect interfaces.'
-    },
-    {
-      year: '2017 - 2018',
-      title: 'Junior Web Developer',
-      company: 'DigitalEdge Agency',
-      description: 'Built and maintained client websites using HTML, CSS, JavaScript, and WordPress. Participated in agile development process and team code reviews.'
+      year: 'Jan 2023 - Jun 2023',
+      title: 'Web Application Development',
+      company: 'Infynow Software Solutions',
+      description: 'Developed full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Built responsive UI components and integrated RESTful APIs to deliver seamless functionality.'
     },
   ];
   

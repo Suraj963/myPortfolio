@@ -107,26 +107,27 @@ const Skills = () => {
         <div className="grid gap-12 md:grid-cols-2">
           <div ref={skillBarsRef} className="opacity-0" style={{ transitionDelay: '0.2s' }}>
             <h3 className="text-xl font-semibold mb-6">Technical Proficiency</h3>
-            <SkillBar skill="JavaScript / TypeScript" percentage={95} />
-            <SkillBar skill="React.js / Next.js" percentage={90} />
-            <SkillBar skill="Node.js / Express" percentage={85} />
+            <SkillBar skill="Java" percentage={95} />
+            <SkillBar skill="JavaScriptt" percentage={95} />
+            <SkillBar skill="React.js" percentage={90} />
+            <SkillBar skill="Node.js / Express" percentage={90} />
             <SkillBar skill="HTML5 / CSS3 / Tailwind" percentage={92} />
-            <SkillBar skill="MongoDB / MySQL" percentage={80} />
-            <SkillBar skill="AWS / DevOps" percentage={75} />
+            <SkillBar skill="MongoDB / MySQL" percentage={90} />
+            {/* <SkillBar skill="AWS / DevOps" percentage={75} /> */}
           </div>
           
           <div ref={techStackRef} className="opacity-0" style={{ transitionDelay: '0.4s' }}>
             <h3 className="text-xl font-semibold mb-6">Tech Stack & Tools</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+              <TechStack icon="🚀" name="Java" />
               <TechStack icon="⚛️" name="React" />
-              <TechStack icon="🚀" name="Next.js" />
               <TechStack icon="💻" name="Node.js" />
-              <TechStack icon="🔥" name="Firebase" />
+              {/* <TechStack icon="🔥" name="Firebase" /> */}
               <TechStack icon="🌐" name="GraphQL" />
-              <TechStack icon="🛠️" name="Webpack" />
+              {/* <TechStack icon="🛠️" name="Webpack" /> */}
               <TechStack icon="🎨" name="Tailwind" />
               <TechStack icon="📱" name="React Native" />
-              <TechStack icon="🔄" name="Redux" />
+              {/* <TechStack icon="🔄" name="Redux" /> */}
             </div>
             
             <div className="mt-10">
@@ -144,9 +145,9 @@ const Skills = () => {
                 <span className="px-4 py-2 bg-secondary/30 rounded-full text-sm border border-primary/20">
                   Project Management
                 </span>
-                <span className="px-4 py-2 bg-secondary/30 rounded-full text-sm border border-primary/20">
+                {/* <span className="px-4 py-2 bg-secondary/30 rounded-full text-sm border border-primary/20">
                   UI/UX Design
-                </span>
+                </span> */}
                 <span className="px-4 py-2 bg-secondary/30 rounded-full text-sm border border-primary/20">
                   Code Review
                 </span>
