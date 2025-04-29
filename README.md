@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
 
-## Project info
+# Suraj M Portfolio
 
-**URL**: https://lovable.dev/projects/3026f282-5afe-4f91-8519-e95a1007dd97
+A modern, responsive portfolio website built with React.js and Tailwind CSS, showcasing Suraj M's work and skills as a Full-Stack Developer.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Modern Dark Theme**: Sleek dark background with purple accent colors
+- **Animated UI**: Smooth page transitions, scroll-based reveals, and component animations
+- **Interactive Sections**: Hero, About, Skills, Experience, Projects, and Contact
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop
+- **Custom Effects**: Particle background and custom cursor
+- **Accessibility**: Keyboard navigation and semantic HTML
 
-**Use Lovable**
+## 📋 Sections
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3026f282-5afe-4f91-8519-e95a1007dd97) and start prompting.
+1. **Hero**: Full-screen introduction with animated text
+2. **About**: Personal bio and career highlights
+3. **Skills**: Animated progress bars for core technologies
+4. **Experience**: Timeline-style layout of work history
+5. **Projects**: Interactive cards for featured projects
+6. **Contact**: Form with client-side validation and feedback
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
 
-**Use your preferred IDE**
+- **React.js**: For building the UI components and managing state
+- **Tailwind CSS**: For styling and responsive design
+- **Intersection Observer API**: For scroll-based animations
+- **React Hooks**: For component functionality and effects
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔧 Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/suraj-m-portfolio.git
+   ```
 
-Follow these steps:
+2. Navigate to the project directory:
+   ```bash
+   cd suraj-m-portfolio
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+5. Open [http://localhost:8080](http://localhost:8080) to view the portfolio in your browser.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🎨 Customization
 
-**Edit a file directly in GitHub**
+1. **Personal Information**: Update details in the About, Experience, and Contact components
+2. **Projects**: Modify the `projectsData` array in the Projects component
+3. **Skills**: Adjust skill percentages in the Skills component
+4. **Colors**: Customize the color scheme in the tailwind.config.ts file
+5. **Images**: Replace placeholder images with your own in the respective components
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📱 Responsive Design
 
-**Use GitHub Codespaces**
+The portfolio is fully responsive and optimized for:
+- Mobile devices (< 640px)
+- Tablets (640px - 1024px)
+- Desktops (> 1024px)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
 
-## What technologies are used for this project?
+The site can be easily deployed to:
 
-This project is built with:
+- **GitHub Pages**:
+  ```bash
+  npm run build
+  ```
+  Then follow GitHub Pages deployment instructions.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vercel/Netlify**: Connect your repository for automatic deployments.
 
-## How can I deploy this project?
+## 📄 License
 
-Simply open [Lovable](https://lovable.dev/projects/3026f282-5afe-4f91-8519-e95a1007dd97) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the [MIT License](LICENSE).
